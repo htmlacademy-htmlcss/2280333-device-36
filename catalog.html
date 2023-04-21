@@ -3,38 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Девайс - Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <header class="page-header">
-      <img class="logo" src="images/logo.svg" alt="Логотип Девайс." width="145" height="36">
-      <form class="header-search" action="https://echo.htmlacademy.ru" method="get">
-        <label class="visually-hidden" for="search">Поиск по сайту.</label>
-        <input class="header-search-input" type="text" name="text" placeholder="Поиск по сайту" id="search">
-        <button class="header-search-button" type="submit">Найти</button>
-      </form>
-      <nav class="user-navigation">
-        <ul class="user-navigation-list">
-          <li class="user-navigation-item user-navigation-name">
-            <a class="user-navigation-link" href="#">Коля Петухов</a>
-          </li>
-          <li class="user-navigation-item user-navigation-logout">
-            <a class="user-navigation-link" href="#">Выйти</a>
-          </li>
-          <li class="user-navigation-item user-navigation-compare">
-            <a class="user-navigation-link" href="#">Сравнить</a>
-          </li>
-          <li class="user-navigation-item user-navigation-basket">
-            <a class="user-navigation-link" href="#">
-              Корзина
-              <span class="user-navigation-basket-count">2</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <header class="page-header container">
+      <a class="logo" href="#">
+        <img class="logo-image" src="images/logo.svg" alt="Логотип Девайс." width="145" height="36">
+      </a>
+      <div class="header-top">
+        <form class="header-search" action="https://echo.htmlacademy.ru" method="get">
+          <label class="visually-hidden" for="search">Поиск по сайту.</label>
+          <input class="header-search-input" type="text" name="text" placeholder="Поиск по сайту" id="search">
+          <button class="header-search-button" type="submit">Найти</button>
+        </form>
+        <nav class="user-navigation">
+          <ul class="user-navigation-list">
+            <li class="user-navigation-item user-navigation-name">
+              <a class="user-navigation-link" href="#">Коля Петухов</a>
+            </li>
+            <li class="user-navigation-item user-navigation-logout">
+              <a class="user-navigation-link" href="#">Выйти</a>
+            </li>
+            <li class="user-navigation-item user-navigation-compare">
+              <a class="user-navigation-link" href="#">Сравнить</a>
+            </li>
+            <li class="user-navigation-item user-navigation-basket">
+              <a class="user-navigation-link" href="#" data-count="2">Корзина
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <nav class="main-navigation">
-        <ul class="main-navigation-list">
-          <li class="main-navigation-item main-navigation-catalog">
-            <a class="main-navigation-link" href="#">Каталог товаров</a>
+        <div class="main-navigation-catalog main-navigation-catalog-open">
+          <a class="main-navigation-link main-catalog-link" href="#">Каталог товаров</a>
+          <div class="navigation-catalog-wrapper container">
             <ul class="navigation-catalog-list">
               <li class="navigation-catalog-item">
                 <a class="navigation-catalog-link" href="#">Виртуальная реальность</a>
@@ -45,17 +48,23 @@
               <li class="navigation-catalog-item">
                 <a class="navigation-catalog-link" href="#">Экшн-камеры</a>
               </li>
+            </ul>
+            <ul class="navigation-catalog-list">
               <li class="navigation-catalog-item">
                 <a class="navigation-catalog-link" href="#">Фитнес-браслеты</a>
               </li>
               <li class="navigation-catalog-item">
                 <a class="navigation-catalog-link" href="#">Умные часы</a>
               </li>
+            </ul>
+            <ul class="navigation-catalog-list">
               <li class="navigation-catalog-item">
                 <a class="navigation-catalog-link" href="#">Квадрокоптеры</a>
               </li>
             </ul>
-          </li>
+          </div>
+        </div>
+        <ul class="main-navigation-list">
           <li class="main-navigation-item">
             <a class="main-navigation-link" href="#">Доставка</a>
           </li>
@@ -88,10 +97,10 @@
         <form class="catalog-filter" action="https://echo.htmlacademy.ru" method="get">
           <h3 class="catalog-filter-title">Фильтр</h3>
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Стоимость</legend>
+            <legend class="catalog-filter-legend">Стоимость</legend>
           </fieldset>
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Цвет</legend>
+            <legend class="catalog-filter-legend">Цвет</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
@@ -126,7 +135,7 @@
             </ul>
           </fieldset>
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Bluetooth</legend>
+            <legend class="catalog-filter-legend">Bluetooth</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label for="control">
@@ -146,7 +155,7 @@
         </form>
         <div class="catalog-sorting">
           <h3 class="catalog-sorting-title">Сортировка:</h3>
-          <select name="sort">
+          <select class="catalog-sorting-select" name="sort">
             <option value="popular">Популярные</option>
             <option value="price">По цене</option>
           </select>
@@ -193,7 +202,7 @@
             <a class="pagination-link-back" href="#">Назад</a>
             <ul class="pagination-list">
               <li class="pagination-item">
-                <a class="pagination-link" href="#">1</a>
+                <a class="pagination-link pagination-link-active" href="#">1</a>
               </li>
               <li class="pagination-item">
                 <a class="pagination-link" href="#">2</a>
