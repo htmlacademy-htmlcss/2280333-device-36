@@ -944,6 +944,7 @@ body {
 
 .footer-logo-image {
   grid-column: 1 / -1;
+  margin-bottom: 35px;
 }
 
 .footer-addres {
@@ -954,17 +955,51 @@ body {
   color: #FFFFFF;
 }
 
+.footer-addres::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 7px;
+  margin-top: 64px;
+  background-color: #FFC700;
+}
+
 .social-icons {
   border: 3px solid tomato;
 }
 
+.footer-navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  column-gap: 34px;
+  row-gap: 10px;
+}
+
 .footer-navigation-link {
-  font-size: 16px;
-  line-height: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
   text-decoration: none;
   color:#FFFFFF;
 }
 
+.footer-phone {
+  text-align: right;
+}
+
 .footer-phone-link {
   color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.developer-logo {
+  text-align: right;
+  margin-top: 62px;
 }
