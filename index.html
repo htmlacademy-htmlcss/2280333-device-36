@@ -325,7 +325,45 @@
       </div>
     </footer>
 
-
+    <div class="modal-container modal-hidden">
+      <div class="modal">
+        <button class="modal-close-button" type="button">
+          <span class="visually-hidden">Закрыть.</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Доставка под заказ</h2>
+          <form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
+            <label class="modal-form-label modal-form-name">
+              <div class="label-text">Ваше имя:</div>
+              <input class="modal-form-input modal-form-input-name" type="text" name="name" placeholder="Введите имя">
+              <div class="label-message">Добавьте имя</div>
+            </label>
+            <label class="modal-form-label modal-form-email modal-form-error">
+              <div class="label-text">Ваш e-mail:</div>
+              <input class="modal-form-input modal-form-input-email" type="email" name="email">
+              <div class="label-message">Забавный у вас адрес</div>
+            </label>
+            <label class="modal-form-label modal-form-what">
+              <div class="label-text">Что нужно привезти:</div>
+              <input class="modal-form-input modal-form-input-what" type="text" name="what" placeholder="В свободной форме">
+            </label>
+            <div class="modal-form-label modal-form-count">
+              <label class="label-text" for="count">Количество:</label>
+              <button class="label-tooltip" type="button">
+                <span class="label-tooltip-text">
+                  Постараемся найти, сколько нужно. Привезём сколько получится по требованиям к провозу багажа.
+                </span>
+              </button>
+              <div class="input-count-wrapper">
+                <input class="input-count" type="text" id="count" name="count" value="1">
+                <button class="input-count-button input-count-minus" type="button"><span class="visually-hidden">Уменьшить количество.</span></button>
+                <button class="input-count-button input-count-plus" type="button"><span class="visually-hidden">Увеличить количество.</span></button>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
 
   </body>
 </html>
