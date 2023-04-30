@@ -94,9 +94,9 @@
               <a class="button" href="#">Подробнее</a>
               <dl class="slider-promo-params">
                 <dt class="slider-promo-params-name">Дальность полета</dt>
-                <dd class="slider-promo-params-value">800м</dd>
+                <dd class="slider-promo-params-value">800 м</dd>
                 <dt class="slider-promo-params-name">Радиус поражения</dt>
-                <dd class="slider-promo-params-value">50м</dd>
+                <dd class="slider-promo-params-value">50 м</dd>
               </dl>
             </div>
           </li>
@@ -116,7 +116,7 @@
               <a class="button" href="#">Подробнее</a>
               <dl class="slider-promo-params">
                 <dt class="slider-promo-params-name">Без подзарядки</dt>
-                <dd class="slider-promo-params-value"> 48 часов</dd>
+                <dd class="slider-promo-params-value">48 часов</dd>
               </dl>
             </div>
           </li>
@@ -245,7 +245,7 @@
             <li class="delivery-method-item">СДИК</li>
             <li class="delivery-method-item">ТоксБерри</li>
           </ul>
-          <a class="button" href="#">Подробнее о нас</a>
+          <a class="button button-narrow" href="#">Подробнее о нас</a>
         </section>
         <section class="company-contacts">
           <h2 class="company-information-header">Контакты</h2>
@@ -265,8 +265,12 @@
       </div>
       <section class="subscription">
         <div class="container subscription-container">
-          <h2 class="subscription-header"> Подпишитесь на рассылку</h2>
-          <p class="subscription-text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+          <h2 class="subscription-header">Подпишитесь<br>на рассылку</h2>
+          <p class="subscription-text">
+            Еженедельный дайджест с обзорами новинок,<br>
+            длительными тест-драйвами, распаковками, а также акции,<br>
+            спецпредложения и вот это вот всё.
+          </p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru" method="post">
             <label class="visually-hidden" for="email">Ваш e-mail.</label>
             <input class="subscription-input" type="email" name="email" id="email" placeholder="Ваш e-mail">
@@ -348,18 +352,21 @@
               <input class="modal-form-input modal-form-input-what" type="text" name="what" placeholder="В свободной форме">
             </label>
             <div class="modal-form-label modal-form-count">
-              <label class="label-text" for="count">Количество:</label>
-              <button class="label-tooltip" type="button">
-                <span class="label-tooltip-text">
-                  Постараемся найти, сколько нужно. Привезём сколько получится по требованиям к провозу багажа.
-                </span>
-              </button>
+              <div class="label-count-wrapper">
+                <label class="label-text" for="count">Количество:</label>
+                <button class="label-tooltip" type="button">
+                  <span class="label-tooltip-text">
+                    Постараемся найти, сколько нужно. Привезём сколько получится по требованиям к провозу багажа.
+                  </span>
+                </button>
+              </div>
               <div class="input-count-wrapper">
-                <input class="input-count" type="text" id="count" name="count" value="1">
                 <button class="input-count-button input-count-minus" type="button"><span class="visually-hidden">Уменьшить количество.</span></button>
+                <input class="input-count" type="text" id="count" name="count" value="1">
                 <button class="input-count-button input-count-plus" type="button"><span class="visually-hidden">Увеличить количество.</span></button>
               </div>
             </div>
+            <button class="button button-white" type="submit">Отправить</button>
           </form>
         </section>
       </div>
