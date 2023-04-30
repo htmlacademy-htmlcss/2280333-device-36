@@ -67,26 +67,26 @@ body {
   text-decoration: none;
   color: #000000;
   padding: 10px 37px;
-  background-image: linear-gradient(transparent 16px, #FFE17F 16px 24px, transparent 24px);
+  background-image: linear-gradient(transparent 16px, #ffe17f 16px 24px, transparent 24px);
   border: none;
 }
 
 .button-white {
-  background-image: linear-gradient(#FFFFFF 16px, #FFE17F 16px 24px, #FFFFFF 24px);
+  background-image: linear-gradient(#ffffff 16px, #ffe17f 16px 24px, #ffffff 24px);
 }
 
 .button:hover {
-  background-color: #FFE17F;
+  background-color: #ffe17f;
   background-image: none;
 }
 
 .button:active {
-  background-color: #FFCC33;
+  background-color: #ffcc33;
   background-image: none;
 }
 
 .button:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .button:disabled {
@@ -113,7 +113,7 @@ body {
   padding-left: 60px;
   padding-right: 60px;
   margin-top: 40px;
-  background-color: #FFE17F;
+  background-color: #ffe17f;
 }
 
 .logo {
@@ -132,7 +132,7 @@ body {
 }
 
 .logo:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .header-top {
@@ -173,7 +173,7 @@ body {
 
 .header-search-button:hover {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .header-search-button:active {
@@ -182,7 +182,7 @@ body {
 }
 
 .header-search-button:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .header-search-button:disabled {
@@ -195,7 +195,7 @@ body {
 }
 
 .header-search-input:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .header-search-input:disabled {
@@ -240,7 +240,7 @@ body {
   background-color: #000000;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .basket-popover::before {
@@ -279,7 +279,7 @@ body {
 
 .basket-product-link {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   margin-right: 20px;
 }
@@ -293,7 +293,7 @@ body {
 }
 
 .basket-product-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .basket-product-image {
@@ -327,12 +327,12 @@ body {
 }
 
 .basket-product-remove:focus {
-  outline: 2px solid #AF4FFF
+  outline: 2px solid #af4fff
 }
 
 .basket-total {
   padding: 0 20px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -359,20 +359,20 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .basket-link:hover {
-  background-color: #FFE17F;
+  background-color: #ffe17f;
 }
 
 .basket-link:active {
   color: rgba(0, 0, 0, 0.3);
-  background-color: #FFE17F;
+  background-color: #ffe17f;
 }
 
 .basket-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .user-navigation-logout {
@@ -399,7 +399,7 @@ body {
 }
 
 .user-navigation-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .user-navigation-login .user-navigation-link,
@@ -432,7 +432,7 @@ body {
   line-height: 17px;
   min-width: 21px;
   height: 21px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -496,7 +496,7 @@ body {
 }
 
 .main-navigation-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .main-catalog-link {
@@ -539,7 +539,7 @@ body {
   left: -60px;
   margin-top: -10px;
   padding: 15px 60px 27px 60px;
-  background-color: #FFE17F;
+  background-color: #ffe17f;
   z-index: 50;
 }
 
@@ -584,7 +584,7 @@ body {
 }
 
 .navigation-catalog-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .slider-promo {
@@ -596,7 +596,7 @@ body {
   padding: 0;
   list-style: none;
   counter-reset: slide 0;
-  background-image: linear-gradient(#FFE17F 150px, transparent 150px);
+  background-image: linear-gradient(#ffe17f 150px, transparent 150px);
 }
 
 .slider-promo-items {
@@ -618,7 +618,7 @@ body {
   font-weight: 700;
   font-size: 180px;
   line-height: 180px;
-  color: #FFFFFF;
+  color: #ffffff;
   right: 49px;
   top: 5px;
   z-index: 10;
@@ -695,7 +695,7 @@ body {
 }
 
 .slider-promo-arrow:focus {
-  outline: 2px solid #AF4FFF
+  outline: 2px solid #af4fff
 }
 
 .slider-promo-arrow:disabled {
@@ -733,7 +733,7 @@ body {
 .slider-bullet {
   width: 12px;
   height: 12px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 2px solid #000000;
   border-radius: 50%;
   padding: 0;
@@ -749,7 +749,7 @@ body {
 }
 
 .slider-bullet:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .slider-bullet:disabled {
@@ -784,7 +784,7 @@ body {
   position: absolute;
   width: 160px;
   height: 160px;
-  background: #FFE17F;
+  background: #ffe17f;
   top: 0;
   left: 0;
   background-repeat: no-repeat;
@@ -792,7 +792,7 @@ body {
 }
 
 .catalog-section-link:hover::before {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .catalog-section-link:active {
@@ -800,7 +800,7 @@ body {
 }
 
 .catalog-section-link:focus {
-  outline: 2px solid #AF4FFF
+  outline: 2px solid #af4fff
 }
 
 .catalog-vistual-reality::before {
@@ -847,7 +847,7 @@ body {
 }
 
 .services {
-  background-image: linear-gradient(transparent 102px, #F0F0F0 102px);
+  background-image: linear-gradient(transparent 102px, #f0f0f0 102px);
   margin-bottom: 70px;
 }
 
@@ -911,7 +911,7 @@ body {
 }
 
 .service-name-active .button {
-  color: #FFE17F;
+  color: #ffe17f;
   background-color: #000000;
   background-image: none;
 }
@@ -923,7 +923,7 @@ body {
 }
 
 .service-name-active:focus {
-  outline: 2px solid #AF4FFF
+  outline: 2px solid #af4fff
 }
 
 .service-description-header {
@@ -952,7 +952,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
-  background: #F0F0F0;
+  background: #f0f0f0;
   justify-content: center;
   align-items: center;
   padding: 20px 145px;
@@ -964,7 +964,7 @@ body {
   content: "";
   width: 125px;
   height: 100%;
-  background-color: #FFE17F;
+  background-color: #ffe17f;
   background-image: url("../images/delivery-lorry.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -991,7 +991,7 @@ body {
 }
 
 .delivery-link:hover::before {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .delivery-link:hover::after {
@@ -1000,11 +1000,11 @@ body {
 
 .delivery-link:active {
   opacity: 0.3;
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .delivery-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .company-information {
@@ -1081,7 +1081,7 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #FFC700;
+  background-color: #ffc700;
   left: 4px;
   top: 6px;
 }
@@ -1097,7 +1097,7 @@ body {
 }
 
 .subscription {
-  background: #F0F0F0;
+  background: #f0f0f0;
   padding-top: 64px;
   padding-bottom: 56px;
 }
@@ -1139,13 +1139,13 @@ body {
   padding: 11px 16px 14px 16px;
   border: none;
   background-color: transparent;
-  border-bottom: 3px solid #C4C4C4;
+  border-bottom: 3px solid #c4c4c4;
   border-radius: 0;
 }
 
 .subscription-input:focus {
   outline: none;
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .subscription-input:disabled {
@@ -1153,7 +1153,7 @@ body {
 }
 
 .subscription-input:invalid {
-  border-color: #FF3D3D;
+  border-color: #ff3d3d;
 }
 
 .subscription-button {
@@ -1165,12 +1165,12 @@ body {
   text-transform: uppercase;
   color: #000000;
   padding: 18px 38px;
-  border: 3px solid #C4C4C4;
+  border: 3px solid #c4c4c4;
   border-radius: 0;
 }
 
 .subscription-button:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
   border-color: #000000;
 }
@@ -1183,7 +1183,7 @@ body {
 }
 
 .subscription-button:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .subscription-button:disabled {
@@ -1263,11 +1263,11 @@ body {
 }
 
 .breadcrumbs-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .catalog {
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
 
 .catalog-container {
@@ -1343,7 +1343,7 @@ body {
 .range-scale {
   position: relative;
   height: 2px;
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
   ;
 }
 
@@ -1373,7 +1373,7 @@ body {
   top: 0;
   width: 18px;
   height: 18px;
-  background: #EBEBEB;
+  background: #ebebeb;
   border-radius: 50%;
   border: 2px solid #000000;
   padding: 0;
@@ -1393,7 +1393,7 @@ body {
 }
 
 .range-toggle:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .range-toggle-label {
@@ -1445,7 +1445,7 @@ body {
   width: 20px;
   height: 20px;
   margin-right: 16px;
-  border: 2px solid #CCCCCC;
+  border: 2px solid #cccccc;
   border-radius: 3px;
 }
 
@@ -1462,7 +1462,7 @@ body {
   width: 20px;
   height: 20px;
   margin-right: 16px;
-  border: 2px solid #CCCCCC;
+  border: 2px solid #cccccc;
   border-radius: 50%;
   position: relative;
 }
@@ -1504,7 +1504,7 @@ body {
 
 .control-input:focus + .control-checkbox,
 .control-input:focus + .control-radio {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .catalog-filter .button {
@@ -1560,7 +1560,7 @@ body {
 }
 
 .catalog-sorting-select:focus {
-  outline: 2px solid #AF4FFF
+  outline: 2px solid #af4fff
 }
 
 .catalog-sorting-select:disabled {
@@ -1597,7 +1597,7 @@ body {
 }
 
 .sorting-direction:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .catalog-link {
@@ -1682,7 +1682,7 @@ body {
 
 .catalog-link:hover::after {
   content: "Подробнее";
-  background-image: linear-gradient(transparent 6px, #FFE17F 6px 14px, transparent 14px);
+  background-image: linear-gradient(transparent 6px, #ffe17f 6px 14px, transparent 14px);
 }
 
 .catalog-link:hover .catalog-product-name {
@@ -1691,7 +1691,7 @@ body {
 
 .catalog-link:active::after {
   content: "Подробнее";
-  background-image: linear-gradient(transparent 6px, #FFC700 6px 14px, transparent 14px);
+  background-image: linear-gradient(transparent 6px, #ffc700 6px 14px, transparent 14px);
 }
 
 .catalog-link:active .catalog-product-name,
@@ -1700,11 +1700,11 @@ body {
 }
 
 .catalog-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .catalog-list-wrapper {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 70px 40px 78px 40px;
 }
 
@@ -1730,7 +1730,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   background-color: transparent;
-  border: 3px solid #E5E5E5;
+  border: 3px solid #e5e5e5;
   border-radius: 0;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -1748,19 +1748,19 @@ body {
 }
 
 .catalog-load-more:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .catalog-load-more:disabled {
   opacity: 0.3;
-  border: 3px solid #E5E5E5;
+  border: 3px solid #e5e5e5;
 }
 
 .pagination {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   min-height: 71px;
 }
 
@@ -1797,7 +1797,7 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   text-decoration: none;
   padding: 25px;
 }
@@ -1808,16 +1808,16 @@ body {
 }
 
 .pagination-link-button:hover {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .pagination-link-button:active {
   color: rgba(0, 0, 0, 0.3);
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .pagination-link-button:focus {
-  outline: 3px solid #AF4FFF;
+  outline: 3px solid #af4fff;
 }
 
 .pagination-link:hover {
@@ -1829,7 +1829,7 @@ body {
 }
 
 .pagination-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .page-footer {
@@ -1858,7 +1858,7 @@ body {
 }
 
 .footer-logo-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .footer-addres {
@@ -1866,7 +1866,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-addres::after {
@@ -1875,7 +1875,7 @@ body {
   width: 80px;
   height: 7px;
   margin-top: 64px;
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .social-icons {
@@ -1902,16 +1902,16 @@ body {
 }
 
 .social-link:hover {
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .social-link:active {
-  background-color: #FFC700;
+  background-color: #ffc700;
   opacity: 0.3;
 }
 
 .social-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .social-item:last-child {
@@ -1936,12 +1936,12 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
 }
 
 .footer-navigation-link:hover {
-  color: #FFC700;
+  color: #ffc700;
 }
 
 .footer-navigation-link:hover::after {
@@ -1951,11 +1951,11 @@ body {
   width: 98%;
   content: "";
   height: 2px;
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .footer-navigation-link:active {
-  color: #FFC700;
+  color: #ffc700;
   opacity: 0.3;
 }
 
@@ -1966,11 +1966,11 @@ body {
   width: 98%;
   content: "";
   height: 2px;
-  background-color: #FFC700;
+  background-color: #ffc700;
 }
 
 .footer-navigation-link:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .footer-phone {
@@ -1978,22 +1978,22 @@ body {
 }
 
 .footer-phone-link {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   line-height: 20px;
 }
 
 .footer-phone-link:hover {
-  color: #FFC700;
+  color: #ffc700;
 }
 
 .footer-phone-link:active {
-  color: #FFC700;
+  color: #ffc700;
   opacity: 0.3;
 }
 
 .footer-phone-link:focus {
-  outline: 2px solid #AF4FFF
+  outline: 2px solid #af4fff
 }
 
 .developer-logo {
@@ -2003,7 +2003,7 @@ body {
 
 .developer-logo-link:hover path,
 .developer-logo-link:active path {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .developer-logo-link:active {
@@ -2011,7 +2011,7 @@ body {
 }
 
 .developer-logo-link:focus {
-  outline: 2px solid #AF4FFF
+  outline: 2px solid #af4fff
 }
 
 .modal-container {
@@ -2031,7 +2031,7 @@ body {
 .modal {
   width: 920px;
   padding: 62px 70px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 10px solid #000000;
   box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.1);
   position: absolute;
@@ -2064,7 +2064,7 @@ body {
 }
 
 .modal-close-button:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .modal-title {
@@ -2109,7 +2109,7 @@ body {
 
 .input-count-wrapper {
   border: 2px solid transparent;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   display: flex;
 }
 
@@ -2118,7 +2118,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   width: 60px;
   padding: 20px 0;
   border: none;
@@ -2128,7 +2128,7 @@ body {
 .input-count-button {
   border: none;
   border-radius: 0;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   width: 60px;
   height: 60px;
   padding: 0;
@@ -2167,7 +2167,7 @@ body {
 }
 
 .input-count-button:active {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .input-count-button:active::before,
@@ -2176,7 +2176,7 @@ body {
 }
 
 .input-count-button:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .input-count-button:disabled {
@@ -2202,13 +2202,13 @@ body {
 
 .modal-from-input:invalid + .label-message,
 .modal-form-error .label-message {
-  color: #FF3D3D;
+  color: #ff3d3d;
 }
 
 .label-tooltip {
   width: 26px;
   height: 26px;
-  background-color: #FFE17F;
+  background-color: #ffe17f;
   background-image: url("../images/icons/icons-tooltip-info.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -2228,7 +2228,7 @@ body {
   left: -138px;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 200px;
   padding: 18px;
   background-color: #000000;
@@ -2261,21 +2261,21 @@ body {
   padding: 20px;
   border: 2px solid transparent;
   border-radius: 0;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   background-repeat: no-repeat;
   background-position: calc(100% - 20px) center;
 }
 
 .modal-form-input:hover {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .modal-form-input:active {
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .modal-form-input:focus {
-  outline: 2px solid #AF4FFF;
+  outline: 2px solid #af4fff;
 }
 
 .modal-form-input:disabled {
@@ -2285,7 +2285,7 @@ body {
 .modal-form-input:invalid,
 .modal-form-error .modal-form-input,
 .modal-form-error .input-count-wrapper {
-  border-color: #FF3D3D;
+  border-color: #ff3d3d;
 }
 
 
