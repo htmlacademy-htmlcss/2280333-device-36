@@ -28,8 +28,34 @@
               <a class="user-navigation-link" href="#">Сравнить</a>
             </li>
             <li class="user-navigation-item user-navigation-basket">
-              <a class="user-navigation-link" href="#" data-count="2">Корзина
-              </a>
+              <a class="user-navigation-link" href="#" data-count="2">Корзина</a>
+              <div class="basket-popover">
+                <ul class="basket-product-list">
+                  <li class="basket-product-item">
+                    <a class="basket-product-link" href="#">
+                      <img class="basket-product-image" src="images/basket/product-1.jpg" width="39" height="43" alt="Любительская селфи-палка.">
+                      <span class="basket-product-title">Любительская селфи-палка</span>
+                    </a>
+                    <button class="basket-product-remove">
+                      <span class="visually-hidden">Удалить продукт из корзины.</span>
+                    </button>
+                  </li>
+                  <li class="basket-product-item">
+                    <a class="basket-product-link" href="#">
+                      <img class="basket-product-image" src="images/basket/product-2.jpg" width="39" height="43" alt="Профессиональная селфи-палка.">
+                      <span class="basket-product-title">Профессиональная селфи-палка</span>
+                    </a>
+                    <button class="basket-product-remove">
+                      <span class="visually-hidden">Удалить продукт из корзины.</span>
+                    </button>
+                  </li>
+                </ul>
+                <div class="basket-total">
+                  <div class="basket-total-count">Товаров: 2</div>
+                  <div class="basket-total-price">Сумма: 2000 ₽</div>
+                </div>
+                <a class="basket-link" href="#">Открыть корзину</a>
+              </div>
             </li>
           </ul>
         </nav>
@@ -204,36 +230,37 @@
             <ul class="catalog-list">
               <li class="catalog-item">
                 <a class="catalog-link" href="#">
+                  <span class="catalog-label">new</span>
                   <img class="catalog-image" src="images/products/product-1.jpg" alt="Любительская селфи-палка." width="360" height="380">
                   <span class="catalog-product-name">Любительская селфи-палка</span>
-                  <span class="catalog-product-prise">500 ₽</span>
+                  <span class="catalog-product-price">500 ₽</span>
                 </a>
               </li>
               <li class="catalog-item">
                 <a class="catalog-link" href="#">
                   <img class="catalog-image" src="images/products/product-2.jpg" alt="Профессиональная селфи-палка ." width="360" height="380">
                   <span class="catalog-product-name">Профессиональная селфи-палка </span>
-                  <span class="catalog-product-prise">1 500 ₽</span>
+                  <span class="catalog-product-price">1 500 ₽</span>
                 </a>
               </li>
               <li class="catalog-item">
                 <a class="catalog-link" href="#">
                   <img class="catalog-image" src="images/products/product-3.jpg" alt="Непотопляемая селфи-палка ." width="360" height="380">
                   <span class="catalog-product-name">Непотопляемая селфи-палка</span>
-                  <span class="catalog-product-prise">2 500 ₽</span>
+                  <span class="catalog-product-price">2 500 ₽</span>
                 </a>
               </li>
               <li class="catalog-item">
                 <a class="catalog-link" href="#">
                   <img class="catalog-image" src="images/products/product-4.jpg" alt="Селфи-палка «Следуй за мной» ." width="360" height="380">
                   <span class="catalog-product-name">Селфи-палка «Следуй за мной»</span>
-                  <span class="catalog-product-prise">1 500 ₽</span>
+                  <span class="catalog-product-price">1 500 ₽</span>
                 </a>
               </li>
             </ul>
             <button class="catalog-load-more" type="button">Загрузить ещё</button>
             <div class="pagination">
-              <a class="pagination-link-back">Назад</a>
+              <a class="pagination-link-button pagination-link-disable">Назад</a>
               <ul class="pagination-list">
                 <li class="pagination-item">
                   <a class="pagination-link pagination-link-active" href="#">1</a>
@@ -251,7 +278,7 @@
                     <a class="pagination-link" href="#">15</a>
                 </li>
               </ul>
-              <a class="pagination-link-forward" href="#">Вперёд</a>
+              <a class="pagination-link-button" href="#">Вперёд</a>
             </div>
           </div>
         </div>
@@ -259,7 +286,11 @@
     </main>
     <footer class="page-footer">
       <div class="page-footer-container container ">
-        <img class="footer-logo-image" src="images/logo-footer.svg" alt="Логотип Девайс." width="145" height="36">
+        <div class="footer-logo">
+          <a class="footer-logo-link" href="#">
+            <img class="footer-logo-image" src="images/logo-footer.svg" alt="Логотип Девайс." width="145" height="36">
+          </a>
+        </div>
         <p class="footer-addres">Санкт-Петербург, набережная реки Карповки, 5, литера П</p>
         <nav class="footer-navigation">
           <ul class="footer-navigation-list">
